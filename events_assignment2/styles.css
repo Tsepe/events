@@ -1,0 +1,312 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0FFF0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid #4B0082;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.services {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.services h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services ul li {
+    margin-bottom: 10px;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-section {
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.footer-section h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-section.about p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    margin-bottom: 20px;
+}
+
+.contact span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.socials a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #aaa;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links ul li a:hover {
+    color: #aaa;
+}
+
+.contact-form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-input:focus {
+    outline: none;
+}
+
+.contact-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #777;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+.portfolio {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+.portfolio img
+{
+    width: 600px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-type {
+    margin-bottom: 40px;
+}
+
+.event-type h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-type p {
+    color: #666;
+    line-height: 1.6;
+}
+.gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gallery h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.gallery section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.service {
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #666;
+    line-height: 1.6;
+}
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: justify;
+}
+
+.about h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #666;
+    line-height: 1.6;
+}
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.contact form {
+    margin-top: 30px;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4B0082;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
